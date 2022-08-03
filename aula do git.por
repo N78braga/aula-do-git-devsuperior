@@ -35,16 +35,26 @@ programa
 		escreva("O menor valor é ", menor, "\n")
 		escreva("O maior valor é ", maior, "\n")
 		escreva("A soma dos valores: ", soma_impar)
+
+     // uma versão mas exuta do codigo
+
+ 
+		inteiro impar, contador = 0, maior = 0, menor = 9999999, soma = 0
+		
+
+		enquanto(contador < 3){
+			escreva("insera um valor: ")
+			leia(impar)
+			se(impar%2!=0){
+			contador++
+			 soma+=impar
+			    se(impar > maior){
+			    	  maior = impar
+			    }
+			     se(impar < menor){
+			    	   menor = impar
+			    	   
+			    } 
+
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 915; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
